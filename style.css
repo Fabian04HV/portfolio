@@ -36,12 +36,14 @@ header{
   padding-bottom: 80px;
 }
 header .main-contents{
-  margin-top: 150px;
+  box-sizing: border-box;
+  width: 1200px;
+  max-width: 100%;
+  margin: 150px auto 0 auto;
   padding: 40px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  gap: 275px;
 }
 header .main-contents > div{
   display: flex;
@@ -349,7 +351,7 @@ nav .sidebar a{
   background-color: var(--main-color);
   color: white;
   font-family: Consolas, sans-serif;
-  font-size: max(4vw, 2rem) ;
+  font-size: 2.35rem;
   text-align: center;
 }
 #projects-heading-opening::before{
