@@ -523,6 +523,42 @@ nav .sidebar a{
   }
 }
 /* SKILLSET SECTION👆 */
+/* STRENGTHS SECTION 👇*/
+#strengths-section{
+  max-width: 100%;
+  padding: 50px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-dark);
+  color: #fff;
+}
+#strengths-section h2{
+  font-size: 2rem;
+}
+#strengths-section .text-container{
+  box-sizing: border-box;
+  width: 800px;
+  max-width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  border: 5px solid var(--main-color);
+}
+#strengths-section .text-container p{
+  margin: 10px 0;
+  color: var(--secondary-text-color);
+}
+#strengths-section .text-container p strong{
+  color: #fff;
+}
+
+@media(max-width: 500px){
+  #strengths-section h2{
+    font-size: 8vw;
+  }
+}
+/* STRENGTHS SECTION 👆*/
 /* FOOTER 👇 */
 
 footer{
